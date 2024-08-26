@@ -107,7 +107,7 @@
   @media (max-width: 480px) {
     .app {
       position: relative;
-      top: 66px;
+      top: 120px;
       left: 0px;
       border-radius: 16px;
       width: 440px;
@@ -135,7 +135,7 @@
 @media (max-width: 720px) and (min-width: 480px){
   .app {
     position: relative;
-    top: 66px;
+    top: 120px;
     left: 0px;
     border-radius: 16px;
     width: 664px;

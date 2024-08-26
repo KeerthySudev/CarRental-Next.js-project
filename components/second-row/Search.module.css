@@ -43,13 +43,13 @@
     text-align: left;
 }
 
-.titleActive .hr {
-  top: -17px;
+.titleActive hr {
+  top: -30px;
   position: relative;
   width: 109px;
   border: 1px solid white;
 }
-.title .hr {
+.title hr {
   display: none;
 }
 

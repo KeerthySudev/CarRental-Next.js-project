@@ -36,6 +36,7 @@
         display: block;
       }  
       .linksMob {
+        display: none;
         flex-direction: column;
         top: -19px;
         left: 153px;
@@ -102,16 +103,18 @@
   }
     
     .linksMob {
+      display: none;
       flex-direction: column;
       top: -19px;
       left: 153px;
       background-color: white;
       position: absolute;
-      z-index: 2;
+      z-index: 100;
       width: 300px;
       height: 543px;
       gap: 25px;
     }
+    
   
     .linksMob img {
       position: relative;

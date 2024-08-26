@@ -1,14 +1,21 @@
 import styles from './Logo.module.css';
 import MenuToggle from './Menu';
 
+// Define Logo component
 export default function Logo() {
-    return (
-      <div className={styles.logo}>
-        <img src="/images/Group (2).svg" alt="Main Logo" />
+  // Return Logo component
+  return (
+    <div className={styles.logo}>
+      {/* Main logo image */}
+      <img src="/images/Group (2).svg" alt="Main Logo" />
+
+      {/* Secondary logo image container */}
       <div className={styles.img}>
         <img src="/images/Group.svg" alt="Secondary Logo" />
       </div>
-      <MenuToggle/>
-      </div>
-    );
-  }
+
+      {/* Menu toggle component */}
+      <MenuToggle />
+    </div>
+  );
+}

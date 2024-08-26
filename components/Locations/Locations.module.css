@@ -161,7 +161,7 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    top: -10px;
+    top: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -175,8 +175,8 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     width: 100%;
+    flex-direction: row;
   }
 
   .countries .link {

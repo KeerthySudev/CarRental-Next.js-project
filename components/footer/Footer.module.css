@@ -329,14 +329,14 @@
   .follow .socialicons {
     position: relative;
     top: -59px;
-    left: -885px;
+    left: -674px;
   }
   
 
   .follow .img img {
     position: relative;
     top: 216px;
-    left: -997px;
+    left: -883px;
   }
   .fb img{
     content: url(/images/Vector.svg);
@@ -361,13 +361,13 @@
   .alhabtoor {
     position: relative;
     top: 104px;
-    left: 154px;
+    left: 280px;
   }
 
   .footer .features {
     position: relative;
     top: 104px;
-    left: -69px;
+    left: 90px;
   }
 
   .line,
@@ -379,7 +379,7 @@
   .footer .lists {
     position: relative;
     top: 74px;
-    left: -87px;
+    left: 30px;
     color: black;
   }
 

@@ -78,7 +78,7 @@
   @media (max-width: 480px) {
     .fourthRow {
       position: relative;
-      top: 311px;
+      top: 140px;
       left: -126px;
       display: flex;
       flex-direction: column;
@@ -113,7 +113,7 @@
 @media (max-width: 720px) and (min-width: 480px){
   .fourthRow {
     position: relative;
-    top: 311px;
+    top: 140px;
     left: -126px;
     display: flex;
     flex-direction: column;
