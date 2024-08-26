@@ -1,0 +1,163 @@
+.banner {
+    background-image: url(/images/banner.svg);
+    width: 1312px;
+    height: 405px;
+    top: -10px;
+    left: 64px;
+    border-radius: 23px;
+    position: relative;
+}
+
+.content {
+    width: 443px;
+    height: 58.63px;
+    top: 246.47px;
+    left: 504px;
+    font-family: Poppins;
+    font-size: 18.37px;
+    font-weight: 400;
+    line-height: 26.91px;
+    text-align: left;
+    color: white;
+    position: relative;
+}
+
+.content button {
+    width: 153px;
+    height: 31.49px;
+    top: -45px;
+    left: 182px;
+    gap: 0px;
+    border-radius: 32px;
+    background: #009046;
+    border: none;
+    position: relative;
+    font-family: Poppins;
+    font-size: 15.22px;
+    font-weight: 600;
+    line-height: 19.25px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.lease {
+    top: -62px;
+    position: relative;
+}
+
+/* Styles for small screens (max width 480px) */ 
+
+@media (max-width: 480px) {
+  .banner {
+    position: relative;
+    top: 62px;
+    left: -422px;
+    width: 200%;
+    background-image: url(/images/banner.svg);
+  }
+  .banner .content {
+    top: 226.47px;
+  }
+}
+
+/* Styles for medium screens (min width 480px and max width 720px) */
+
+@media (max-width: 720px) and (min-width: 480px){
+  .banner {
+    position: relative;
+    top: 62px;
+    left: -300px;
+    width: 200%;
+    background-image: url(/images/banner.svg);
+  }
+  .banner .content {
+    top: 226.47px;
+  }
+}
+
+
+/* .banner {
+    width: 1312px;
+    height: 405px;
+    left: 64px;
+    border-radius: 23px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content {
+    width: 443px;
+    height: 58.63px;
+    top: -158.53px;
+    left: 504px;
+    font-family: Poppins;
+    font-size: 18.37px;
+    font-weight: 400;
+    line-height: 26.91px;
+    text-align: left;
+    color: white;
+    position: relative;
+  }
+  
+  .content button {
+    width: 153px;
+    height: 31.49px;
+    top: -45px;
+    left: 182px;
+    gap: 0px;
+    border-radius: 32px;
+    background: #009046;
+    border: none;
+    position: relative;
+    font-family: Poppins;
+    font-size: 15.22px;
+    font-weight: 600;
+    line-height: 19.25px;
+    text-align: center;
+    color: white;
+  }
+  
+  .lease {
+    top: -62px;
+    position: relative;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    flex: 1 0 100%;
+    box-sizing: border-box;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    display: block;
+  }
+  
+  .carousel-dots {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: white;
+  } */
