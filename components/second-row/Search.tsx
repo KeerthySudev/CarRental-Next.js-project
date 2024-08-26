@@ -15,12 +15,12 @@ const Search = () => {
             <p className={isDifferentDropOff ? styles.title : styles.titleActive}
             onClick={() => setIsDifferentDropOff(false)}>
               Same as Pick-Up
-              <hr />
+              <div className={styles.hr}></div>
             </p>
             <p className={isDifferentDropOff ? styles.titleActive : styles.title}
             onClick={() => setIsDifferentDropOff(true)}>
               Different Drop-Off
-              <hr />
+              <div className={styles.hr}></div>
             </p>
           </div>
           <select className={styles.vehicle}>
