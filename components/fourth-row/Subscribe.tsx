@@ -27,7 +27,7 @@ export default function Subscribe() {
         {/* Missing out container */}
         <div className={styles.miss}>
           <p>
-            Don't miss out! Enter your email and your name, then hit subscribe
+            Don&apos;t miss out! Enter your email and your name, then hit subscribe
             to unlock a world of special offers and details.
           </p>
         </div>
