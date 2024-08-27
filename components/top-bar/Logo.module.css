@@ -99,14 +99,14 @@
     .menuIcon {
       display: block;
       position: relative;
-      left: 246px;
+      left: 200px;
   }
     
     .linksMob {
       display: none;
       flex-direction: column;
       top: -19px;
-      left: 153px;
+      left: 394px;
       background-color: white;
       position: absolute;
       z-index: 100;

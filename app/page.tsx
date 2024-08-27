@@ -10,7 +10,7 @@ import FourthRow from "@/components/fourth-row/FourthRow";
 import Steps from "@/components/Rent/Steps";
 import Locations from "@/components/Locations/Locations";
 import Questions from "@/components/Questions/Questions";
-import Footer from "@/components/footer/footer";
+import Footer from "@/components/footer/Footer";
 
 // Define the Home component
 
